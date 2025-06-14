@@ -9,41 +9,22 @@
   <h1>Editar Nossos Projetos</h1>
 
   <div>
-    <h2>Projeto 1</h2>
-    <label for="title1">Título:</label>
-    <input type="text" id="title1">
-    <label for="desc1">Descrição:</label>
-    <input type="text" id="desc1">
-    <label for="img1">Imagem URL:</label>
-    <input type="text" id="img1">
-    <button onclick="saveProject(1)">Salvar Projeto 1</button>
-    <button onclick="resetProject(1)">Resetar Projeto 1</button>
+  <h2>Projeto </h2>
+  <label for="title1">Título:</label>
+  <input type="text" id="title1">
+
+  <label for="desc1">Descrição:</label>
+  <textarea id="desc1" rows="4"></textarea>
+
+  <label for="img1">Upload da imagem:</label>
+  <div class="file-input-wrapper">
+    <input type="file" id="img1" accept="image/*">
+    <span class="file-label">Escolher imagem</span>
   </div>
 
-  <div>
-    <h2>Projeto 2</h2>
-    <label for="title2">Título:</label>
-    <input type="text" id="title2">
-    <label for="desc2">Descrição:</label>
-    <input type="text" id="desc2">
-    <label for="img2">Imagem URL:</label>
-    <input type="text" id="img2">
-    <button onclick="saveProject(2)">Salvar Projeto 2</button>
-    <button onclick="resetProject(2)">Resetar Projeto 2</button>
-  </div>
-
-  <div>
-    <h2>Projeto 3</h2>
-    <label for="title3">Título:</label>
-    <input type="text" id="title3">
-    <label for="desc3">Descrição:</label>
-    <input type="text" id="desc3">
-    <label for="img3">Imagem URL:</label>
-    <input type="text" id="img3">
-    <button onclick="saveProject(3)">Salvar Projeto 3</button>
-    <button onclick="resetProject(3)">Resetar Projeto 3</button>
-  </div>
-
+  <button onclick="saveProject(1)">Salvar Projeto </button>
+  <button onclick="resetProject(1)">Resetar Projeto </button>
+</div>
   <script src="main3.js"></script>
 </body>
 </html>
