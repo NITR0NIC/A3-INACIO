@@ -6,6 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
       login();
     });
   }
+
+  
+  const btnBack = document.getElementById('btnBack');
+  if (btnBack) {
+    btnBack.addEventListener('click', () => {
+      window.location.href = 'index.html'; 
+    });
+  }
 });
 
 function toggleMenu() {
